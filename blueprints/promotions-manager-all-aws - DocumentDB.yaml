@@ -18,10 +18,10 @@ inputs:
 - RELEASE_NUMBER: none
 - API_BUILD_NUMBER: none
 - DB_USERNAME: adminuser
-- DB_PASSWORD:
-  display_style: masked
-  description: please set the master database password
-  default_value: Welcome1234567+
+- DB_PASSWORD: 
+    display_style: masked
+    description: please set the master database password
+    default_value: Welcome1234567+
 
 applications:
   - promotions-manager-ui:
